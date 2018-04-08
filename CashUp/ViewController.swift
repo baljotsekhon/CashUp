@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,35 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    // ask for access to camera to take pictures of receipt
+    @IBOutlet weak var imagePicked: UIImageView!
+    
+    @IBAction func openCamera(_ sender: AnyObject) {
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            let imageAccess = UIImagePickerController()
+            imageAccess.delegate = self
+            imageAccess.sourceType = UIImagePickerControllerSourceType.camera;
+            imageAccess.allowsEditing = false
+            self.present(imageAccess, animated: true, completion: nil)
+        }
+    }
+    
+    // access photos from library
+    @IBAction func openPhotoLib(sender: AnyObject) {
+        if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
+            let imageAccess = UIImagePickerController()
+            imageAccess.delegate = self
+            imageAccess.sourceType = .photoLibrary;
+            imageAccess.allowsEditing = true
+            self.present(imageAccess, animated: true, completion: nil)
+        }
+    }
+    
+    // display the chosen image from camera/library
+    private func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+        imagePicked.image = image
+        dismiss(animated:true, completion: nil)
+    }
 }
 
