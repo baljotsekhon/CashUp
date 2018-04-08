@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FEBD0FE207A032700C8C890 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBD0FD207A032700C8C890 /* AppDelegate.swift */; };
+		9FEBD100207A032700C8C890 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBD0FF207A032700C8C890 /* ViewController.swift */; };
+		9FEBD103207A032700C8C890 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBD101207A032700C8C890 /* Main.storyboard */; };
+		9FEBD105207A032700C8C890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBD104207A032700C8C890 /* Assets.xcassets */; };
+		9FEBD108207A032700C8C890 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FEBD106207A032700C8C890 /* LaunchScreen.storyboard */; };
+		9FEBD113207A032700C8C890 /* CashUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBD112207A032700C8C890 /* CashUpTests.swift */; };
+		9FEBD11E207A032700C8C890 /* CashUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FEBD11D207A032700C8C890 /* CashUpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FEBD10F207A032700C8C890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FEBD0F2207A032700C8C890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FEBD0F9207A032700C8C890;
+			remoteInfo = CashUp;
+		};
+		9FEBD11A207A032700C8C890 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FEBD0F2207A032700C8C890 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FEBD0F9207A032700C8C890;
+			remoteInfo = CashUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9FEBD0FA207A032700C8C890 /* CashUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEBD0FD207A032700C8C890 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9FEBD0FF207A032700C8C890 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9FEBD102207A032700C8C890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9FEBD104207A032700C8C890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FEBD107207A032700C8C890 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9FEBD109207A032700C8C890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FEBD10E207A032700C8C890 /* CashUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEBD112207A032700C8C890 /* CashUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashUpTests.swift; sourceTree = "<group>"; };
+		9FEBD114207A032700C8C890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FEBD119207A032700C8C890 /* CashUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FEBD11D207A032700C8C890 /* CashUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashUpUITests.swift; sourceTree = "<group>"; };
+		9FEBD11F207A032700C8C890 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FEBD0F7207A032700C8C890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEBD10B207A032700C8C890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEBD116207A032700C8C890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FEBD0F1207A032700C8C890 = {
+			isa = PBXGroup;
+			children = (
+				9FEBD0FC207A032700C8C890 /* CashUp */,
+				9FEBD111207A032700C8C890 /* CashUpTests */,
+				9FEBD11C207A032700C8C890 /* CashUpUITests */,
+				9FEBD0FB207A032700C8C890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FEBD0FB207A032700C8C890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FEBD0FA207A032700C8C890 /* CashUp.app */,
+				9FEBD10E207A032700C8C890 /* CashUpTests.xctest */,
+				9FEBD119207A032700C8C890 /* CashUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FEBD0FC207A032700C8C890 /* CashUp */ = {
+			isa = PBXGroup;
+			children = (
+				9FEBD0FD207A032700C8C890 /* AppDelegate.swift */,
+				9FEBD0FF207A032700C8C890 /* ViewController.swift */,
+				9FEBD101207A032700C8C890 /* Main.storyboard */,
+				9FEBD104207A032700C8C890 /* Assets.xcassets */,
+				9FEBD106207A032700C8C890 /* LaunchScreen.storyboard */,
+				9FEBD109207A032700C8C890 /* Info.plist */,
+			);
+			path = CashUp;
+			sourceTree = "<group>";
+		};
+		9FEBD111207A032700C8C890 /* CashUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FEBD112207A032700C8C890 /* CashUpTests.swift */,
+				9FEBD114207A032700C8C890 /* Info.plist */,
+			);
+			path = CashUpTests;
+			sourceTree = "<group>";
+		};
+		9FEBD11C207A032700C8C890 /* CashUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9FEBD11D207A032700C8C890 /* CashUpUITests.swift */,
+				9FEBD11F207A032700C8C890 /* Info.plist */,
+			);
+			path = CashUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FEBD0F9207A032700C8C890 /* CashUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FEBD122207A032700C8C890 /* Build configuration list for PBXNativeTarget "CashUp" */;
+			buildPhases = (
+				9FEBD0F6207A032700C8C890 /* Sources */,
+				9FEBD0F7207A032700C8C890 /* Frameworks */,
+				9FEBD0F8207A032700C8C890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashUp;
+			productName = CashUp;
+			productReference = 9FEBD0FA207A032700C8C890 /* CashUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9FEBD10D207A032700C8C890 /* CashUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FEBD125207A032700C8C890 /* Build configuration list for PBXNativeTarget "CashUpTests" */;
+			buildPhases = (
+				9FEBD10A207A032700C8C890 /* Sources */,
+				9FEBD10B207A032700C8C890 /* Frameworks */,
+				9FEBD10C207A032700C8C890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FEBD110207A032700C8C890 /* PBXTargetDependency */,
+			);
+			name = CashUpTests;
+			productName = CashUpTests;
+			productReference = 9FEBD10E207A032700C8C890 /* CashUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9FEBD118207A032700C8C890 /* CashUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FEBD128207A032700C8C890 /* Build configuration list for PBXNativeTarget "CashUpUITests" */;
+			buildPhases = (
+				9FEBD115207A032700C8C890 /* Sources */,
+				9FEBD116207A032700C8C890 /* Frameworks */,
+				9FEBD117207A032700C8C890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FEBD11B207A032700C8C890 /* PBXTargetDependency */,
+			);
+			name = CashUpUITests;
+			productName = CashUpUITests;
+			productReference = 9FEBD119207A032700C8C890 /* CashUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FEBD0F2207A032700C8C890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					9FEBD0F9207A032700C8C890 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9FEBD10D207A032700C8C890 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FEBD0F9207A032700C8C890;
+					};
+					9FEBD118207A032700C8C890 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9FEBD0F9207A032700C8C890;
+					};
+				};
+			};
+			buildConfigurationList = 9FEBD0F5207A032700C8C890 /* Build configuration list for PBXProject "CashUp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FEBD0F1207A032700C8C890;
+			productRefGroup = 9FEBD0FB207A032700C8C890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FEBD0F9207A032700C8C890 /* CashUp */,
+				9FEBD10D207A032700C8C890 /* CashUpTests */,
+				9FEBD118207A032700C8C890 /* CashUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FEBD0F8207A032700C8C890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEBD108207A032700C8C890 /* LaunchScreen.storyboard in Resources */,
+				9FEBD105207A032700C8C890 /* Assets.xcassets in Resources */,
+				9FEBD103207A032700C8C890 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEBD10C207A032700C8C890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEBD117207A032700C8C890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FEBD0F6207A032700C8C890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEBD100207A032700C8C890 /* ViewController.swift in Sources */,
+				9FEBD0FE207A032700C8C890 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEBD10A207A032700C8C890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEBD113207A032700C8C890 /* CashUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FEBD115207A032700C8C890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEBD11E207A032700C8C890 /* CashUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FEBD110207A032700C8C890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FEBD0F9207A032700C8C890 /* CashUp */;
+			targetProxy = 9FEBD10F207A032700C8C890 /* PBXContainerItemProxy */;
+		};
+		9FEBD11B207A032700C8C890 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FEBD0F9207A032700C8C890 /* CashUp */;
+			targetProxy = 9FEBD11A207A032700C8C890 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9FEBD101207A032700C8C890 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEBD102207A032700C8C890 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9FEBD106207A032700C8C890 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9FEBD107207A032700C8C890 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9FEBD120207A032700C8C890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FEBD121207A032700C8C890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FEBD123207A032700C8C890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DPTP5UBX;
+				INFOPLIST_FILE = CashUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9FEBD124207A032700C8C890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DPTP5UBX;
+				INFOPLIST_FILE = CashUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9FEBD126207A032700C8C890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DPTP5UBX;
+				INFOPLIST_FILE = CashUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashUp.app/CashUp";
+			};
+			name = Debug;
+		};
+		9FEBD127207A032700C8C890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DPTP5UBX;
+				INFOPLIST_FILE = CashUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashUp.app/CashUp";
+			};
+			name = Release;
+		};
+		9FEBD129207A032700C8C890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DPTP5UBX;
+				INFOPLIST_FILE = CashUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashUp;
+			};
+			name = Debug;
+		};
+		9FEBD12A207A032700C8C890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F4DPTP5UBX;
+				INFOPLIST_FILE = CashUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.CashUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FEBD0F5207A032700C8C890 /* Build configuration list for PBXProject "CashUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEBD120207A032700C8C890 /* Debug */,
+				9FEBD121207A032700C8C890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FEBD122207A032700C8C890 /* Build configuration list for PBXNativeTarget "CashUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEBD123207A032700C8C890 /* Debug */,
+				9FEBD124207A032700C8C890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FEBD125207A032700C8C890 /* Build configuration list for PBXNativeTarget "CashUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEBD126207A032700C8C890 /* Debug */,
+				9FEBD127207A032700C8C890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FEBD128207A032700C8C890 /* Build configuration list for PBXNativeTarget "CashUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FEBD129207A032700C8C890 /* Debug */,
+				9FEBD12A207A032700C8C890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FEBD0F2207A032700C8C890 /* Project object */;
+}
